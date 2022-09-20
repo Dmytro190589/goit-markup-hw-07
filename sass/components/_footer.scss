@@ -1,0 +1,108 @@
+.footer {
+    padding-top: 65px;
+    padding-bottom: 60px;
+    background-color: var(--accent-color);
+
+    &__subscribe {
+        display: flex;
+    }
+
+    &__title {
+        text-transform: uppercase;
+        font-size: 14px;
+        line-height: 1.14;
+        color: #ffffff;
+        margin-bottom: 20px;
+    }
+
+    &__social {
+        display: flex;
+    }
+
+    &__content {
+        display: flex;
+        align-items: baseline;
+        gap: 70px;
+    }
+
+    &__link {
+        display: block;
+        margin-bottom: 20px;
+        font-family: var(--secondary-font);
+        font-size: 26px;
+        line-height: 1.19;
+        letter-spacing: 0.03em;
+        color: var(--primary-text-white);
+    }
+
+    &__logo {
+        font-weight: 500;
+        text-decoration: none;
+        color: var(--primary-text-white);
+    }
+
+    &__mail {
+        width: 358px;
+        height: 50px;
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+        border-radius: 4px;
+        background-color: rgba(47, 48, 58, 1);
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 16px;
+        color: #fff;
+        font-size: 16px;
+        line-height: 1.25;
+        letter-spacing: 0.03em;
+        transition-property: border-color var(--transituin-duration) var(--timing-function);
+
+        &:focus {
+            border-color: var(--btn--color);
+        }
+    }
+
+    &__button {
+        padding: 10px 28px;
+        margin-left: 12px;
+        width: 200px;
+        height: 50px;
+
+        background-color: var(--btn--color);
+        color: #fff;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 4px;
+        cursor: pointer;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1.86;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.06em;
+        border: none;
+        transition: background-color var(--timing-function) var(--transituin-duration);
+
+        &:hover {
+            background-color: var(--primary-text-blue);
+        }
+    }
+
+    &__icon {
+        margin-left: 10px;
+        width: 24px;
+        height: 24px;
+        fill: white;
+    }
+
+    &__email {
+        margin-left: auto;
+    }
+}
+
+.logo--foot {
+    font-family: var(--secondary-font);
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-blue);
+}
