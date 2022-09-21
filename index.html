@@ -35,7 +35,7 @@
 </head>
 
 <body class="body">
-    <header class="header">
+    <header hidden class="header">
         <div class="container header-container">
             <nav class="navigation">
                 <a
@@ -88,9 +88,13 @@
                                 </use>
                             </svg>
                             +38 096 111 11 11</a>
-
                     </li>
                 </ul>
+                <button class="button-menu js-open-menu"  type="button" aria-expanded="false" aria-controls="mobile-menu">
+                    <svg width="40" hight="40">
+                        <use href="./image/icons.svg#icon-menuburg"></use>
+                    </svg>
+                </button>
         </div>
     </header>
     <main>
@@ -879,6 +883,7 @@
             </div>
         </div>
     </footer>
+    <!-- <script src="./js/mobile-menu.js"></script> -->
     <script src="./js/modal.js"></script>
 </body>
 
